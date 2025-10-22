@@ -14,6 +14,6 @@ public class MainUser {
         u1.setNombre(nombre);
         u1.setEdad(edad);
         u1.setCorreo(correo);
-        System.out.println("**USUARIO**\n"+ "Nombre :"+u1.getNombre()+"\nEdad:"+u1.getEdad()+"\nCorreo:"+u1.getCorreo());
+        System.out.println("**USUARIO**\n"+ "Nombre: "+u1.getNombre()+"\nEdad: "+u1.getEdad()+"\nCorreo: "+u1.getCorreo());
     }
 }

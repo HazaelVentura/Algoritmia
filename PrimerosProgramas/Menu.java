@@ -30,7 +30,6 @@ do{
                 System.out.println("El resultado de la division es de:"+rd);
                 }
 
-
 }
 while (true);
 }
