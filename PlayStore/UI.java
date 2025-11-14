@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class UI {
 public static void Usin(){
     Scanner sca = new Scanner(System.in);
-    boolean salir = false;
+    boolean salir = true;
     do {
     try {
         // TODO: handle exception
@@ -18,7 +18,7 @@ public static void Usin(){
         switch (opt) {
             case 0:
                 System.out.println("Saliendo...\n");
-                salir=true;
+                salir=false;
                 break;
             case 1:
                 Service.Suma();
@@ -34,7 +34,7 @@ public static void Usin(){
         System.out.println("Error: Ingresa un numero entero (da enter).\n");
         sca.nextLine(); // Limpiar el buffer del scanner
 
-    } }while (!salir);
+    } }while (salir);
     sca.close();
 }
     
